@@ -1,0 +1,13 @@
+C:\Coding\C#\KanbanSystem\bin\Debug\KanbanSystem.exe.config
+C:\Coding\C#\KanbanSystem\bin\Debug\KanbanSystem.exe
+C:\Coding\C#\KanbanSystem\bin\Debug\KanbanSystem.pdb
+C:\Coding\C#\KanbanSystem\obj\Debug\KanbanSystem.BoardName.resources
+C:\Coding\C#\KanbanSystem\obj\Debug\KanbanSystem.ListName.resources
+C:\Coding\C#\KanbanSystem\obj\Debug\KanbanSystem.Screen.resources
+C:\Coding\C#\KanbanSystem\obj\Debug\KanbanSystem.Properties.Resources.resources
+C:\Coding\C#\KanbanSystem\obj\Debug\KanbanSystem.TaskMenu.resources
+C:\Coding\C#\KanbanSystem\obj\Debug\KanbanSystem.TaskName.resources
+C:\Coding\C#\KanbanSystem\obj\Debug\KanbanSystem.csproj.GenerateResource.cache
+C:\Coding\C#\KanbanSystem\obj\Debug\KanbanSystem.csproj.CoreCompileInputs.cache
+C:\Coding\C#\KanbanSystem\obj\Debug\KanbanSystem.exe
+C:\Coding\C#\KanbanSystem\obj\Debug\KanbanSystem.pdb
