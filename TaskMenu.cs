@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace KanbanSystem
@@ -21,7 +14,7 @@ namespace KanbanSystem
 
         private void btn_stateTODO_Click(object sender, EventArgs e)
         {
-            if(Screen.taskState == 1 || Screen.taskState == 2)
+            if (Screen.taskState == 1 || Screen.taskState == 2)
                 Screen.taskState = 0;
         }
 

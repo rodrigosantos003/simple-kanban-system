@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace KanbanSystem
@@ -47,7 +41,7 @@ namespace KanbanSystem
             else if (taskState == 2)
                 flp_Done.Controls.Add(button);
 
-            if(removeTask == true)
+            if (removeTask == true)
             {
                 flp_ToDo.Controls.Remove(button);
                 flp_Doing.Controls.Remove(button);

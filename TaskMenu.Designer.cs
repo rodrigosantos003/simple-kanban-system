@@ -29,6 +29,7 @@ namespace KanbanSystem
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TaskMenu));
             this.label2 = new System.Windows.Forms.Label();
             this.btn_stateTODO = new System.Windows.Forms.Button();
             this.btn_stateDoing = new System.Windows.Forms.Button();
@@ -105,6 +106,7 @@ namespace KanbanSystem
             this.Controls.Add(this.btn_stateTODO);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TaskMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Task Menu";

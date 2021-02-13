@@ -29,6 +29,7 @@ namespace KanbanSystem
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TaskName));
             this.btn_Cancel = new System.Windows.Forms.Button();
             this.btn_OK = new System.Windows.Forms.Button();
             this.txt_taskName = new System.Windows.Forms.TextBox();
@@ -77,6 +78,7 @@ namespace KanbanSystem
             this.Controls.Add(this.btn_OK);
             this.Controls.Add(this.txt_taskName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TaskName";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Insert a Name For The Task";

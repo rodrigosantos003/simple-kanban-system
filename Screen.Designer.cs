@@ -29,6 +29,7 @@ namespace KanbanSystem
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Screen));
             this.panel_Board = new System.Windows.Forms.Panel();
             this.flp_Done = new System.Windows.Forms.FlowLayoutPanel();
             this.lbl_Done = new System.Windows.Forms.Label();
@@ -143,6 +144,7 @@ namespace KanbanSystem
             this.ClientSize = new System.Drawing.Size(982, 753);
             this.Controls.Add(this.panel_Board);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1000, 800);
             this.Name = "Screen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
